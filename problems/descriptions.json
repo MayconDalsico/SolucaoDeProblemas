@@ -2,5 +2,6 @@
   "1000": "Escreva um programa que imprima 'Hello World!' na saída.",
   "1001": "Leia dois valores inteiros e calcule a soma deles, armazenando o resultado em X.",
   "1002": "Efetue o cálculo da área, elevando o valor de raio ao quadrado e multiplicando por π.",
-  "1003": "Entra com 2 valores inteiros e vai realizar a soma."
+  "1003": "Entra com 2 valores inteiros e vai realizar a soma.",
+  "1004": "Leia dois valores inteiros. A seguir, calcule o produto entre estes dois valores e atribua esta operação à variável PROD. A seguir mostre a variável PROD com mensagem correspondente. "
 }
