@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,20 +9,36 @@
     <script src="./main.js" defer type="module"></script>
     <title>Beecrowd</title>
 </head>
+
 <body>
     <h1>Resolução - Beecrowd</h1>
 
     <div class="container-problem">
         <label for="problem">Problema: </label>
-        <input type="text" class="problem" id="problem">
+        <select id="problem">
+            <!-- As opções serão preenchidas dinamicamente -->
+        </select>
     </div>
-    <button type="button" class="solve" id="solve">Resolver</button>
+    <div class="descricao">
+        <label>Descrição do problema selecionado:</label>
+        <p id="problemDescription">Selecione um problema para ver a descrição.</p>
+    </div>
 
     <div class="container-input">
         <label for="">Entrada:</label>
         <textarea class="input" id="input"></textarea>
     </div>
 
+    <button type="button" class="solve" id="solve">Resolver</button>
+
+    <div class="console-log">
+        <h2>Saída:</h2>
+        <textarea id="consoleOutput" readonly></textarea>
+    </div>
+
     <footer>Maycon D. Silva</footer>
+
+    <script src="/consoleLog.js" defer></script>
 </body>
+
 </html>
