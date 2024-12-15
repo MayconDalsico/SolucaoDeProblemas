@@ -3,5 +3,6 @@
   "1001": "Leia dois valores inteiros e calcule a soma deles, armazenando o resultado em X.",
   "1002": "Efetue o cálculo da área, elevando o valor de raio ao quadrado e multiplicando por π.",
   "1003": "Entra com 2 valores inteiros e vai realizar a soma.",
-  "1004": "Leia dois valores inteiros. A seguir, calcule o produto entre estes dois valores e atribua esta operação à variável PROD. A seguir mostre a variável PROD com mensagem correspondente. "
+  "1004": "Leia dois valores inteiros. A seguir, calcule o produto entre estes dois valores e atribua esta operação à variável PROD. A seguir mostre a variável PROD com mensagem correspondente. ",
+  "1005": "Leia 2 valores de ponto flutuante de dupla precisão A e B, que correspondem a 2 notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto é 11). Assuma que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal."
 }
