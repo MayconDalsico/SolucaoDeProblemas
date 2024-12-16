@@ -15,8 +15,10 @@ const setProblem = (problemNumber) =>
 const solveProblem = async () => {
   const input = document
     .getElementById("input")
-    .value.replace(/ +|\r|\n/g, " ")
-    .split(" ");
+    .value.split(/\r | \n/)
+
+    /*replace(/ +|\r|\n/g, " ")
+    .split(" ");*/
 
   const problemNumber = document.getElementById("problem").value;
   setProblem(problemNumber);
